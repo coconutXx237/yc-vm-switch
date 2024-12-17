@@ -7,7 +7,7 @@ from starlette.responses import HTMLResponse
 from app.services import get_vm_status, start_vm, stop_vm
 
 
-YC_VM_ID = "fhm8u22sq41le2mffk06"
+YC_VM_ID = "YC_VM_ID"
 
 app = FastAPI()
 app.add_middleware(SessionMiddleware, secret_key="admin")
